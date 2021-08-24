@@ -12,16 +12,15 @@ body {
 main {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     max-width: 1000px;
-    
 }
 
 article {
     width: 763px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 article{
@@ -69,4 +68,20 @@ article figure {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 900ms ease;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.fade-out {
+    opacity: 1;;
+}
+
+
 
