@@ -1,3 +1,9 @@
+/*
+    TODO
+    Sjekk om det er bedre å beregne fra bunnen av,¨
+    når elementene fader når det scrolles opp.
+*/
+
 let divs = document.querySelectorAll("div");
    
 function isVisible(element) {
