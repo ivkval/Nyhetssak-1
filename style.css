@@ -1,0 +1,66 @@
+/* Removes margin, padding and tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #00000085 0%, #FFFFFF 25%, #FFFFFF 75%, #00000085 100%);
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+    
+}
+
+article {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    font-size: 2.8em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article p {
+    font-size: 1.6em;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+article figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
