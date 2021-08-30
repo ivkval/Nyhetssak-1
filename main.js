@@ -8,7 +8,7 @@ let divs = document.querySelectorAll("div");
    
 function isVisible(element) {
     let box = element.getBoundingClientRect();
-    if (box.top > -60 && box.top < window.innerHeight - 100) {
+    if (box.top > -50 && box.top < window.innerHeight - 100) {
         return true 
     } else {
         return false
