@@ -37,14 +37,14 @@ header {
 }
 
 article h1 {
-    font-size: 5em;
+    font-size: calc(24px + 2em);
     font-weight: bolder;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 article h2 {
-    font-size: 2.8em;
+    font-size: calc(16px + 1em);
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -57,7 +57,7 @@ article h3 {
 }
 
 article p {
-    font-size: 1.3em;
+    font-size: calc(12px + 0.5em);
     line-height: 1.5;
     margin-bottom: 1.6rem;
 }
